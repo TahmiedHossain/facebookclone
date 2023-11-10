@@ -1,0 +1,124 @@
+@media screen and (max-width: 868px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr 1fr 1fr 1fr;
+        height: 100vh;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "content"
+        "sidebar"
+        "footer"
+        ;
+    }
+
+    .div1{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header1{
+        grid-area: left;
+        display: flex;
+    }
+    .header2{
+        grid-area: center;
+        display: flex;
+    }
+    .header3{
+        display: flex;
+        grid-area: right;
+        margin: 0;
+        padding: ;
+    }
+    .logo{
+        padding: 0;
+    }
+    .search{
+        padding: 0;
+    }
+    .icons{
+        padding: 0;
+        margin: 0;
+    }
+    .active{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+    } 
+    .icons{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .div2{
+        display: none !important;
+    }
+    .div4{
+        display: none;
+    }
+  }
+  @media (max-width: 589px) {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr 1fr 1fr 1fr;
+        height: 100vh;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "content"
+        "sidebar"
+        "footer"
+        ;
+    }
+
+    .div1{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header1{
+        grid-area: left;
+        display: flex;
+    }
+    .header2{
+        grid-area: center;
+        display: flex;
+    }
+    .header3{
+        display: flex;
+        grid-area: right;
+        margin: 0;
+        padding: ;
+    }
+    .logo{
+        padding: 0;
+    }
+    .search{
+        padding: 0;
+    }
+    .icons{
+        padding: 0;
+        margin: 0;
+    }
+    .active{
+        display: none;
+
+    } 
+    .icons{
+        display: none;
+    }
+    .div2{
+        display: none;
+    }
+
+  }
+ 
